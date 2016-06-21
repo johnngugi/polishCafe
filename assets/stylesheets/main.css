@@ -71,6 +71,15 @@ h1, h3, p {
 
 /*
   ========================================
+	Styles
+	=========================================
+*/
+body {
+	background-color: orange;
+}
+
+/*
+  ========================================
 	Navigation
 	=========================================
 */
@@ -85,7 +94,10 @@ h1, h3, p {
   ========================================
 */
 header {
-	background-image: url("/home/john/Desktop/Pre-Course/polishCafe/assets/images/FOOD-fast-food.jpg");
+	height: 700px;
+	background-image: url("/home/john/Desktop/Pre-Course/polishCafe/assets/images/fast-food.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 /*
   ========================================
