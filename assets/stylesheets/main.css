@@ -63,4 +63,36 @@ table {
 .container {
   padding-left: 30px;
   padding-right: 30px;
+	width: 100%;
+}
+h1, h3, p {
+	margin-bottom: 30px;
+}
+
+/*
+  ========================================
+	Navigation
+	=========================================
+*/
+
+.top-nav {
+	text-align: right;
+}
+
+/*
+  ========================================
+	Main header
+  ========================================
+*/
+header {
+	background-image: url("/home/john/Desktop/Pre-Course/polishCafe/assets/images/FOOD-fast-food.jpg");
+}
+/*
+  ========================================
+	Main footer
+ =========================================
+*/
+
+.main-footer nav {
+	text-align: center;
 }
