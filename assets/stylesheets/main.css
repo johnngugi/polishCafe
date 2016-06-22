@@ -140,7 +140,7 @@ p {
 */
 header {
 	height: 700px;
-	background-image: url("/home/john/Desktop/Pre-Course/polishCafe/assets/images/fast-food.jpg");
+	background-image: url("../images/fast-food.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 30px;
