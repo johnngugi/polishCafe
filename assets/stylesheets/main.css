@@ -66,11 +66,8 @@ table {
 }
 .grid,
 .container {
-	margin: 0 auto 20px 0;
+	margin: 10px auto 20px 0;
 	width: 100%;
-}
-h1, h3, p {
-	margin-bottom: 30px;
 }
 .column-1 {
 	width: 50%;
@@ -98,11 +95,40 @@ h1, h3, p {
 
 /*
   ========================================
+  Rows
+  ========================================
+*/
+
+.row {
+  background: white;
+  min-width: 100%;
+  padding: 66px 0 44px 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 600;
+}
+
+/*
+  ========================================
 	Styles
 	=========================================
 */
+
 body {
 	background-color: orange;
+	font-family: 'Poiret One', cursive;
+	font-weight: 600;
+}
+h1, h3, p {
+	margin-bottom: 30px;
+}
+h1 {
+	font-size: 50px;
+}
+h3 {
+	font-size: 42px;
+}
+p {
+	font-size: 35px;
 }
 
 /*
