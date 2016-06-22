@@ -31,7 +31,7 @@
         <h3>About</h3>
         <p>
         The Polish Cafe is a great fast food restaurant offering a wide selection of meals.<br>
-        We are located in the city of Warsaw in Poland
+        We are located in the city of Warsaw in Poland.
         Visit us today and sample our amazing cuisine.
         </p>
       </section>
@@ -59,30 +59,30 @@
       <section id="menu" class="container">
         <h3>Menu</h3>
       </section>
-
-    <section class="table">
-      <table>
-        <caption>Fries</caption>
-        <thead>
-          <tr>
-            <th scope="col" class="heading-text">Items</th>
-            <th scope="col" class="price-text">Price</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Small</td>
-            <td class="price-text">200</td>
-          </tr>
-          <tr>
-            <td>Medium</td>
-            <td class="price-text">300</td>
-          </tr>
-          <tr>
-            <td>Large</td>
-            <td class="price-text">400</td>
-          </tr>
-        </tbody>
+      
+      <section class="table">
+          <table>
+            <caption>Fries</caption>
+            <thead>
+              <tr>
+                <th scope="col" class="heading-text">Items</th>
+                <th scope="col" class="price-text">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Small</td>
+                <td class="price-text">200</td>
+              </tr>
+              <tr>
+                <td>Medium</td>
+                <td class="price-text">300</td>
+              </tr>
+              <tr>
+                <td>Large</td>
+                <td class="price-text">400</td>
+              </tr>
+            </tbody>
 
       </table>
     </section>
@@ -137,7 +137,7 @@
             <td class="price-text">700</td>
           </tr>
           <tr>
-            <td>Meat</td>
+            <td>Beef</td>
             <td class="price-text">800</td>
           </tr>
           <tr>
@@ -191,24 +191,92 @@
           </tbody>
         </table>
       </section>
-    </div>
+
+  </div>
 
     <section id="contacts" class="container">
 
-      <div>
+      <div class="column-1">
         <h3>Contacts</h3>
         <p>
         Email: thepolishcafe@gmail.com <br>
         Telephone: 0774749927
       </p>
-    </div>
+    </div><!--
 
-    <div class="">
+    --><div class="column-1">
+          <p>Place Your Order</p>
+      <form class="" action="" method="post">
 
-      <form class="" action="index.html" method="post">
+        <fieldset>
+          <legend>Fries</legend>
+          <label>
+            <input type="checkbox" name="fries" value="Small"> Small
+            <input type="checkbox" name="fries" value="Medium"> Medium
+            <input type="checkbox" name="fries" value="Large"> Large
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Burgers</legend>
+          <label>
+            <input type="checkbox" name="burgers" value="Chicken Large"> Chicken Large
+            <input type="checkbox" name="burgers" value="Chiccken Medium"> Chicken Medium
+            <input type="checkbox" name="burgers" value="Veggie Burger"> Veggie Burger
+            <input type="checkbox" name="burgers" value="Beef Large"> Beef Large
+            <!-- <input type="checkbox" name="burgers" value="Beef Medium"> Beef Medium -->
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Pizza</legend>
+          <label>
+            <input type="checkbox" name="pizza" value="Vegeterian"> Vegeterian
+            <input type="checkbox" name="pizza" value="Beef"> Beef
+            <input type="checkbox" name="pizza" value="Chicken"> Chicken
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Drinks</legend>
+
+          <label>
+            <input type="checkbox" name="drinks" value="Soda"> Soda
+            <input type="checkbox" name="drinks" value="Water"> Water
+            <input type="checkbox" name="drinks" value="Veggie Burger"> Veggie Burger
+            <input type="checkbox" name="drinks" value="Beef Large"> Beef Large
+            <input type="checkbox" name="drinks" value="Beef Medium"> Beef Medium
+          </label>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>City</legend>
+
+          <select class="" name="city">
+            <option value="Warsaw">Warsaw</option>
+          </select>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Area</legend>
+
+          <select class="" name="area">
+            <option value="Area 1">Area 1</option>
+            <option value="Area 2">Area 2</option>
+            <option value="Area 3">Area 3</option>
+            <option value="Area 4">Area 4</option>
+          </select>
+
+        </fieldset>
+
+        <fieldset>
+          <button type="submit" name="submit">Submit</button>
+        </fieldset>
 
       </form>
-      
+
     </div>
     </section>
 
