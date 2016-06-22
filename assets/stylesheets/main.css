@@ -66,7 +66,7 @@ table {
 }
 .grid,
 .container {
-	margin: 20px auto;
+	margin: 0 auto 20px 0;
 	width: 100%;
 }
 h1, h3, p {
@@ -88,6 +88,11 @@ h1, h3, p {
 .column-2 {
 	padding-left: 15px;
 	padding-right: 15px;
+}
+.table {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 0 30%;
 }
 
 /*
@@ -141,3 +146,42 @@ header {
 	About
 	=========================================
 */
+
+/*
+  ========================================
+	Menu Table
+	=========================================
+*/
+
+table {
+	border-collapse: collapse;
+}
+th,
+td {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 5px 15px;
+}
+thead {
+	background: #cc0000;
+  color: #fff;
+}
+thead,
+th {
+	border-right: 2px solid black;
+}
+tbody tr:nth-child(even) {
+	background: #006600;
+}
+tr {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+.item-text {
+	text-align: left;
+	vertical-align: middle;
+}
+.price {
+	text-align: right;
+	vertical-align: middle;
+}
