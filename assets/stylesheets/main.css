@@ -92,7 +92,8 @@ h1, h3, p {
 .table {
 	padding-left: 30px;
 	padding-right: 30px;
-	margin: 0 30%;
+	margin: 22px 100px;
+	/*width: 50%;*/
 }
 
 /*
@@ -155,6 +156,7 @@ header {
 
 table {
 	border-collapse: collapse;
+	width: 30%;
 }
 th,
 td {
@@ -181,7 +183,11 @@ tr {
 	text-align: left;
 	vertical-align: middle;
 }
-.price {
+.price-text {
 	text-align: right;
+	vertical-align: middle;
+}
+.heading-text {
+	text-align: center;
 	vertical-align: middle;
 }
