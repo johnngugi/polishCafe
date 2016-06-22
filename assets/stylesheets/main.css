@@ -63,10 +63,31 @@ table {
 .container {
   padding-left: 30px;
   padding-right: 30px;
+}
+.grid,
+.container {
+	margin: 20px auto;
 	width: 100%;
 }
 h1, h3, p {
 	margin-bottom: 30px;
+}
+.column-1 {
+	width: 50%;
+}
+.column-2 {
+	width: 60%;
+}
+.column-1,
+.column-2 {
+	display: inline-block;
+	vertical-align: top;
+}
+.grid,
+.column-1,
+.column-2 {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 /*
@@ -98,7 +119,13 @@ header {
 	background-image: url("/home/john/Desktop/Pre-Course/polishCafe/assets/images/fast-food.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-bottom: 30px;
 }
+.main-header {
+	padding-top: 30px;
+	color: white;
+}
+
 /*
   ========================================
 	Main footer
@@ -108,3 +135,9 @@ header {
 .main-footer nav {
 	text-align: center;
 }
+
+/*
+  ========================================
+	About
+	=========================================
+*/
