@@ -219,6 +219,33 @@ tr {
 
 /*
   ========================================
+	Ordering Form
+  ========================================
+*/
+
+fieldset,
+legend {
+	margin-bottom: 25px;
+}
+legend {
+	font-size: 25px;
+	color: #000099;
+}
+label {
+	color: black;
+}
+fieldset button {
+	border: 0;
+	border-radius: 50px;
+	background-color: #0d0d0d;
+	color: white;
+	padding: 10px 35px;
+}
+button:hover {
+	background: #262626;
+}
+/*
+  ========================================
   Navigation
   ========================================
 */
@@ -243,4 +270,4 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #a9b2b9;
+  color: #fff;
