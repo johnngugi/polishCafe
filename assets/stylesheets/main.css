@@ -67,7 +67,7 @@ table {
 .grid,
 .container {
 	margin: 10px auto 20px 0;
-	width: 100%;
+	min-width: 100%;
 }
 .column-1 {
 	width: 50%;
@@ -87,10 +87,7 @@ table {
 	padding-right: 15px;
 }
 .table {
-	padding-left: 30px;
-	padding-right: 30px;
 	margin: 22px 100px;
-	/*width: 50%;*/
 }
 
 /*
@@ -101,6 +98,7 @@ table {
 
 .row {
   background: white;
+	color: orange;
   min-width: 100%;
   padding: 66px 0 44px 0;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -115,6 +113,7 @@ table {
 
 body {
 	background-color: orange;
+	color: white;
 	font-family: 'Poiret One', cursive;
 	font-weight: 600;
 }
@@ -126,19 +125,11 @@ h1 {
 }
 h3 {
 	font-size: 42px;
+	font-style: italic;
+	font-weight: 750;
 }
 p {
 	font-size: 35px;
-}
-
-/*
-  ========================================
-	Navigation
-	=========================================
-*/
-
-.top-nav {
-	text-align: right;
 }
 
 /*
@@ -179,10 +170,17 @@ header {
 	Menu Table
 	=========================================
 */
-
+caption{
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: #000099;
+}
 table {
 	border-collapse: collapse;
 	width: 30%;
+}
+td {
+	color: #000;
 }
 th,
 td {
@@ -217,3 +215,30 @@ tr {
 	text-align: center;
 	vertical-align: middle;
 }
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+/*
+  ========================================
+	Links
+  ========================================
+*/
+
+.top-nav {
+	text-align: right;
+}
+a {
+	color: #e60000;
+	font-size: 25px;
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
