@@ -1,6 +1,6 @@
 # polishCafe
 
-[Polish Cafe Website](http://copy-writer-donkey-26366.bitballoon.com/)
+[Polish Cafe Website](http://john-s-polish-cafe.bitballoon.com/)
 
 **Repo Link** https://github.com/johnngugi/polishCafe
 
